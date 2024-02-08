@@ -11,7 +11,7 @@ class App extends React.Component{
         this.fetchAdvice();
     }
     randomID(){
-        return Math.floor(Math.random()*15)+1;
+        return Math.floor(Math.random()*30)+1;
     }
     fetchAdvice=()=>{
         const id=this.randomID();
